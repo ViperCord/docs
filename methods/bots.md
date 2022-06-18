@@ -1,6 +1,6 @@
 # Bots
 
-{% swagger baseUrl="https://api.atlasbots.com" path="/bot/:botID" method="get" summary="Bots" %}
+{% swagger baseUrl="https://api.vipercord.com" path="/bot/:botID" method="get" summary="Bots" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -22,7 +22,7 @@ This content of this response varies.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.atlasbots.com" path="/stats/:botID" method="get" summary="Post Stats" %}
+{% swagger baseUrl="https://api.vipercord.com" path="/stats/:botID" method="get" summary="Post Stats" %}
 {% swagger-description %}
 
 {% endswagger-description %}

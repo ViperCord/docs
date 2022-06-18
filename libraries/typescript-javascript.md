@@ -3,11 +3,11 @@
 ### Install
 
 ```diff
-npm install atlas-bots
+npm install vipercord
 
 or
 
-npm install atlasbots@latest
+npm install vipercord@latest
 ```
 
 ***
@@ -15,15 +15,15 @@ npm install atlasbots@latest
 ### Usage
 
 ```js
-const { AtlasClient } = require("atlas-bots");
+const { ViperClient } = require("vipercord");
 
-const atlas = new AtlasClient({
+const viper = new ViperClient({
     auth: "Api key",
     botID: "Bot id"
 });
 
-atlas.post(SERVER_COUNT, SHARD_COUNT);
-atlas.log("Some Log Text so you know it Worked");
+viper.post(SERVER_COUNT, SHARD_COUNT);
+viper.log("Some Log Text so you know it Worked");
 ```
 
 ***
@@ -31,18 +31,18 @@ atlas.log("Some Log Text so you know it Worked");
 ### Example
 
 ```js
-const { AtlasClient } = require("atlas-bots");
+const { ViperClient } = require("vipercord");
 
-const atlas = new AtlasClient({
+const viper = new ViperClient({
     auth: "AUTH_TOKEN", 
     botID: "819050202508890419"
 });
 
-atlas.post(client.guilds.cache.size, 0).catch((err) => {
-   atlas.atlasLogs(`Posting Stats has failed | Error: ${err}`);
+viper.post(client.guilds.cache.size, 0).catch((err) => {
+   viper.viperLogs(`Posting Stats has failed | Error: ${err}`);
 });
 
-atlas.atlasLogs("Posted Stats Successfully");
+viper.viperLogs("Posted Stats Successfully");
 ```
 
 ***

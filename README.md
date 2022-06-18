@@ -1,5 +1,5 @@
 ---
-description: Thank you for choosing Atlas Bots this will help you guide through our API
+description: Thank you for choosing Vipercord this will help you guide through our API
 ---
 
 # Welcome
