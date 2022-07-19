@@ -1,3 +1,7 @@
+---
+description: Our API is currently under development.
+---
+
 # Bots
 
 {% swagger baseUrl="https://api.vipercord.com" path="/bot/:botID" method="get" summary="Bots" %}
